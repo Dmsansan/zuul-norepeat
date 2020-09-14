@@ -46,6 +46,7 @@
                 <configuration>
                     <source>1.8</source> <!--指明源码用的Jdk版本-->
                     <target>1.8</target> <!--指明打包后的Jdk版本-->
+                    <encoding>utf-8</encoding> <!--防止中文乱码-->
                 </configuration>
             </plugin>
         </plugins>
